@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+# sandbox/tooling artifacts (never commit)
+.cache
+.local
+.npm
+.tmp
+.sudo_as_admin_successful

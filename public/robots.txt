@@ -1,0 +1,7 @@
+# robots.txt — UMAR TECH portfolio
+# Allow all crawlers; no private areas exist on this site.
+User-agent: *
+Allow: /
+
+# Sitemap: replace the placeholder domain with your live domain once deployed.
+# Sitemap: https://your-domain.example/sitemap.xml

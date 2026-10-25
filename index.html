@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#050B12" />
+    <meta name="color-scheme" content="dark" />
+
+    <title>Umar Yahaya Usman | UMAR TECH — Creative Technology Portfolio</title>
+    <meta
+      name="description"
+      content="Explore the portfolio of Umar Yahaya Usman, featuring AI-assisted content creation, graphic design, creative projects, and digital technology."
+    />
+    <meta name="author" content="Umar Yahaya Usman" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL: replace the placeholder below with your live domain (also set siteUrl in src/config/site.ts). -->
+    <link id="canonical-link" rel="canonical" href="https://your-domain.example/" />
+
+    <!-- Favicon / UMAR TECH identity -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Open Graph / social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="UMAR TECH" />
+    <meta property="og:title" content="Umar Yahaya Usman | UMAR TECH — Creative Technology Portfolio" />
+    <meta
+      property="og:description"
+      content="Explore the portfolio of Umar Yahaya Usman, featuring AI-assisted content creation, graphic design, creative projects, and digital technology."
+    />
+    <meta property="og:url" content="https://your-domain.example/" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/wvt3jgwf/image/upload/f_auto,q_auto,w_1200,h_630,c_fill,g_face/1000006656"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Portrait of Umar Yahaya Usman, creative technologist" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Umar Yahaya Usman | UMAR TECH — Creative Technology Portfolio" />
+    <meta
+      name="twitter:description"
+      content="AI-assisted content creation, graphic design, creative projects, and digital technology by Umar Yahaya Usman."
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/wvt3jgwf/image/upload/f_auto,q_auto,w_1200,h_630,c_fill,g_face/1000006656"
+    />
+
+    <!-- Performance: warm up the image CDN and preload the hero photograph -->
+    <link rel="preconnect" href="https://res.cloudinary.com" crossorigin />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="https://res.cloudinary.com/wvt3jgwf/image/upload/f_auto,q_auto,w_640/1000006656 640w, https://res.cloudinary.com/wvt3jgwf/image/upload/f_auto,q_auto,w_960/1000006656 960w, https://res.cloudinary.com/wvt3jgwf/image/upload/f_auto,q_auto,w_1280/1000006656 1280w"
+      imagesizes="(min-width: 1024px) 44vw, 100vw"
+      fetchpriority="high"
+    />
+
+    <!-- Structured data: personal portfolio (Person + WebSite). No fabricated claims. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "name": "Umar Yahaya Usman",
+            "alternateName": "UMAR TECH",
+            "jobTitle": "Creative Technologist",
+            "description": "Technology enthusiast, AI content creator, graphic designer and digital innovator based in Gombe State, Nigeria.",
+            "image": "https://res.cloudinary.com/wvt3jgwf/image/upload/f_auto,q_auto/1000006656",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Gombe State",
+              "addressCountry": "NG"
+            },
+            "knowsAbout": [
+              "AI-assisted content creation",
+              "Graphic design",
+              "Visual branding",
+              "Web design",
+              "Digital storytelling"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "name": "UMAR TECH — Creative Technology Portfolio",
+            "description": "Personal portfolio of Umar Yahaya Usman: AI content creation, graphic design, and digital innovation.",
+            "inLanguage": "en"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
